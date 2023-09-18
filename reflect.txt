@@ -1,0 +1,52 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #2 (P2)
+Full Name  : MD ARAFAT KOYES
+Student ID#: 133682229
+Email      : MAKOYES2MYSENECA.CA
+Section    : ZRA
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+
+1)Answer: When you work with decimal numbers in programming, they are stored in a format called floating-point. However, floating-point numbers have limited accuracy, which means they can't represent all decimal values precisely.
+In the sample code we can see that the price1 is declared as a float variable with the value 17.96f. When you multiply price1 by 100 and try to convert it to an integer, a small rounding error occurs because 17.96 can't be represented exactly as a binary fraction (the way computers store numbers).On the other hand, price2, price3, and price4 are declared as double variables. The double type provides higher precision compared to float. So when you multiply these variables by 100 and convert them to integers, the calculated cent values are closer to the expected values.To summarize, the discrepancy in the representation of the intended value for price1 and its corresponding cent value occurs due to the limited accuracy of the float type. The double type provides better precision for representing decimal numbers. That's why the other samples using double work as expected.
+
+
+
+
+2)Answer:In the given code, we have an integer variable called `money` with the value `7245`. We want to print this value as a dollar amount with two decimal places.
+
+Example 1: `printf("1. $%.2lf\n", money / 100.0);`
+Here, we divide `money` by `100.0`, which is a decimal number with a double data type. Since one of the operands is a double, the division is automatically performed with decimal precision. The result is a double value, and we use the `%.2lf` format specifier to print it with two decimal places.
+
+Example 2: `printf("2. $%.2lf\n", money / (double)100);`
+In this case, we explicitly convert the integer value `100` to a double by using the `(double)` cast. This ensures that the division is performed with decimal precision. The result is a double value, which is then printed with two decimal places.
+
+Example 3: `printf("3. $%.2lf\n", (double)money / 100);`
+Here, we explicitly convert the integer variable `money` to a double using the `(double)` cast. This allows us to perform the division with decimal precision. Since one of the operands is a double, the integer value `100` is automatically converted (coerced) to a double before the division takes place. The result is a double value, which is printed with two decimal plaaces.
+
+The examples work as intended because the division involves converting the integer value to a double, either implicitly or explicitly, to maintain decimal precision. The resulting double value is then printed with two decimal places, accurately representing the desired dollar amount.
+
+
+
+
+
+3)Answer: All the questions are written in order:
+
+a) The value of the variable `result` is 72. This is because `money` is an integer variable with a value of 7245, and when it is divided by 100 (another integer), the result is obtained through integer division. Integer division truncates the decimal part, so the fractional value 0.45 is discarded, resulting  in  72.
+
+b) The values displayed for the samples are as follows:
+    - Sample 1: $72.00
+    - Sample 2: $72
+    - Sample 3: $72.00
+    - Sample 4: $72
+
+c) The `printf` function in samples 1 and 3 doesn't work as expected because the format specifiers used (`%lf`) expect `double` arguments, but we are providing integer values instead. This causes the output to be rounded or truncated, leading to incorrect results. To display decimal values correctly, we need to ensure that the format specifiers match the types of the values being passed to `printf`.
+
+
