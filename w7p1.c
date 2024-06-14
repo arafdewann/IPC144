@@ -2,9 +2,9 @@
 *****************************************************************************
                           Workshop - #7 (P1)
 Full Name  : MD ARAFAT KOYES
-Student ID#: 133682229
-Email      : MAKOYES@MYSENECA.CA
-Section    : ZDD
+Student ID#: XXXX
+Email      : XXXX@MYSENECA.CA
+Section    : XXX
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
