@@ -1,13 +1,13 @@
-/* Workshop - #1 (Part - 2)*/
-/*
-Full Name   : MD Arafat Koyes
-Student ID# : 133682229
-Email       : makoyes@myseneca.ca
-Section     : ZRA
-	
-Authenticity Declaration :
+/*          (Workshop 1 Part-1) */
+/* 
+Full Name   : MD ARAFAT KOYES
+Student ID# : xxxxx
+Email       : xxxxx@myseneca.ca
+Section     :  xxx
+ 
+Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
-shared with any other student or 3rd party content provider.This submitted
+shared with any other student or 3rd party content provider. This submitted
 piece of work is entirely of my own creation.
 */
 
