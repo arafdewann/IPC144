@@ -1,4 +1,4 @@
-/*          (Workshop 1 Part-1) */
+/*          (Workshop 2 Part-1) */
 /* 
 Full Name   : MD ARAFAT KOYES
 Student ID# : xxxxx
