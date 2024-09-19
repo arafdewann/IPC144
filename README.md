@@ -6,6 +6,6 @@ This repository contains all the workshops and milestones for the IPC144 course 
 
 - IPC144 Seneca Polytechnic All Workshops
 <p style="text-align: center;">
-    This is a paragraph with a centered image.<br />
+    <br />
     <img src="https://github.com/arafdewann/Web322/blob/main/Seneca.png" alt="Seneca College" style="width: 265px; height: auto;" />
 </p>
